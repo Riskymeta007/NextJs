@@ -213,8 +213,7 @@ export default function Home() {
     ]
   };
 
-  mapboxgl.accessToken = 'pk.eyJ1IjoicmFuaml0aHJlZGR5MDA3IiwiYSI6ImNseTRwajhudTA0NDgyanM3ZGppZDBhZDMifQ.VpEOnySJGKOVBL-KW6u3xgpk.eyJ1IjoicmFuaml0aHJlZGR5MDA3IiwiYSI6ImNseWVvemt4ZTAzYXQycXMxOHNzMTRoazMifQ.-Ttzm4ppieqIFlWNMt1zUg ';
-
+  mapboxgl.accessToken = 'pk.eyJ1Ijoid2FubmFkYyIsImEiOiJjazBja2M1ZzYwM2lnM2dvM3o1bmF1dmV6In0.50nuNnApjrJYkMfR2AUpXA';
   stores.features.forEach((store, i) => {
     store.properties.id = i;
   });
